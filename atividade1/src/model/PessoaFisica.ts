@@ -3,7 +3,7 @@ import { Pessoa } from "./Pessoa";
 export class PessoaFisica extends Pessoa {
 
     private cpf: string;
-    public constructor (_nome: string, _cpf:string){
+    public constructor(_nome: string, _cpf: string) {
         super(_nome);
         this.cpf = _cpf;
     }
@@ -14,7 +14,7 @@ export class PessoaFisica extends Pessoa {
     public getCpf(): string {
         return this.cpf;
     }
-    public documentoIdentificador(): string{
+    public documentoIdentificador(): string {
         return this.cpf;
     }
 }
